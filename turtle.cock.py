@@ -33,11 +33,6 @@ def angle(h, m, s):
     angle_s=(360 / 60) * s
     angle_m=(360 / 60) * m + angle_s*1/60
     angle_h=(360 / 12) * h + angle_m*1/12
-    '''
-    h=(1/60.0)*6*s
-    m=(6.0*m)+angle_s
-    s=(30.0*h/12)+angle_m
-    '''
     return angle_h, angle_m, angle_s
 
 #clock face
